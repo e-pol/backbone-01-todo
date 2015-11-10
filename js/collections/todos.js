@@ -1,5 +1,3 @@
-'use strict';
-
 var app = app || {};
 
 var TodoList = Backbone.Collection.extend({

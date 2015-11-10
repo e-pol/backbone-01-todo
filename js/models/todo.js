@@ -1,6 +1,6 @@
-'use strict';
-
 var app = app || {};
+
+console.log('js/models/todo.js started');
 
 app.Todo = Backbone.Model.extend({
     defaults: {
@@ -13,3 +13,5 @@ app.Todo = Backbone.Model.extend({
         });
     }
 });
+
+console.log('js/models/todo.js finished');
